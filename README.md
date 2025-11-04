@@ -100,14 +100,7 @@ A **“High Potential”** lead is identified using the formula:
 ## 📁 Repository Structure
 
 📂 ElectricPe-Dashboard
-│
-├── 📊 Nikhil_Kumar_BTECH1088322.xlsx       # Main project Excel file
-├── 📝 README.md                            # Documentation (this file)
-├── 📸 Screenshots/                         # Dashboard visuals
-│   ├── dashboard_overview.png
-│   ├── funnel_view.png
-│   └── cancellation_trends.png
-└── 📄 License (optional)
+<img width="634" height="165" alt="image" src="https://github.com/user-attachments/assets/fc31c513-e97d-409d-896f-69b3f875c068" />
 
 
 

@@ -99,8 +99,7 @@ A **“High Potential”** lead is identified using the formula:
 
 ## 📁 Repository Structure
 
-📂 ElectricPe-Dashboard
-<img width="634" height="165" alt="image" src="https://github.com/user-attachments/assets/fc31c513-e97d-409d-896f-69b3f875c068" />
+ <img width="634" height="165" alt="image" src="https://github.com/user-attachments/assets/fc31c513-e97d-409d-896f-69b3f875c068" />
 
 
 

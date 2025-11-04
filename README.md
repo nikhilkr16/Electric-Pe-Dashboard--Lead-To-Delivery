@@ -56,7 +56,7 @@ A **“High Potential”** lead is identified using the formula:
 
 ```excel
 =IF(AND(NOT(ISBLANK([@[Pre-Booking Date]])), ISBLANK([@[Delivery Date]]), [@[TAT Booking (Days)]]<=3), "High Potential", "Normal")
-
+```
 
 
 Criteria:

@@ -1,7 +1,7 @@
 # ⚡ ElectricPe Lead-to-Delivery Funnel Analysis & Dashboard
 
 <img width="1354" height="628" alt="Screenshot 2025-11-03 182721" src="https://github.com/user-attachments/assets/9914c629-1111-4aa9-9cc2-f1fa023e4fe0" />
-
+# Project Link -> https://onedrive.live.com/:x:/g/personal/FF2145CE1E3C5523/EVxrR24_599Ir343vdAhSx8BGOy5O6Lzc_6suhig9cbapw?resid=FF2145CE1E3C5523!s6e476b5ce73f48dfaf7e37bdd0214b1f&ithint=file%2Cxlsx&e=pW1cep9&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy9mZjIxNDVjZTFlM2M1NTIzL0VWeHJSMjRfNTk5SXIzNDN2ZEFoU3g4QkdPeTVPNkx6Y182c3VoaWc5Y2JhcHc_ZT1wVzFjZXA5
 This project analyzes and visualizes ElectricPe’s lead journey from generation to delivery across multiple Mobility Business Centers (MBCs).  
 It tracks key operational metrics, identifies high-potential leads, and provides actionable insights through an interactive Excel dashboard.
 

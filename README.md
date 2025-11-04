@@ -1,4 +1,5 @@
 # ⚡ ElectricPe Lead-to-Delivery Funnel Analysis & Dashboard
+
 <img width="1354" height="628" alt="Screenshot 2025-11-03 182721" src="https://github.com/user-attachments/assets/9914c629-1111-4aa9-9cc2-f1fa023e4fe0" />
 
 This project analyzes and visualizes ElectricPe’s lead journey from generation to delivery across multiple Mobility Business Centers (MBCs).  
@@ -97,6 +98,7 @@ A **“High Potential”** lead is identified using the formula:
 ---
 
 ## 📁 Repository Structure
+
 📂 ElectricPe-Dashboard
 │
 ├── 📊 Nikhil_Kumar_BTECH1088322.xlsx       # Main project Excel file

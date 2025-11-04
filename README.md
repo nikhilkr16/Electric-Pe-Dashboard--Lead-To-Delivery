@@ -1,4 +1,5 @@
 # ⚡ ElectricPe Lead-to-Delivery Funnel Analysis & Dashboard
+<img width="1354" height="628" alt="Screenshot 2025-11-03 182721" src="https://github.com/user-attachments/assets/9914c629-1111-4aa9-9cc2-f1fa023e4fe0" />
 
 This project analyzes and visualizes ElectricPe’s lead journey from generation to delivery across multiple Mobility Business Centers (MBCs).  
 It tracks key operational metrics, identifies high-potential leads, and provides actionable insights through an interactive Excel dashboard.
@@ -58,38 +59,44 @@ A **“High Potential”** lead is identified using the formula:
 =IF(AND(NOT(ISBLANK([@[Pre-Booking Date]])), ISBLANK([@[Delivery Date]]), [@[TAT Booking (Days)]]<=3), "High Potential", "Normal")
 ```
 
+## 🚦 Criteria for High-Potential Leads
 
-Criteria:
+**A lead is classified as _High Potential_ if it meets all three criteria below:**
 
-Pre-Booking done ✅
+- ✅ **Pre-Booking done**  
+- 🚫 **Delivery pending**  
+- ⚡ **Fast movement** (TAT ≤ 3 days)
 
-Delivery pending 🚫
+---
 
-Fast movement (TAT ≤ 3 days) ⚡
+## 🎨 Dashboard Design Choices
 
-🎨 Dashboard Design Choices
-Element	Style	Color
-Background	Light Gray	#F5F5F5
-Header Gradient	Electric Green → Lime	#00C853 → #64DD17
-KPI Box Background	Subtle Light Green	#E8F5E9
-Text	Dark Charcoal	#212121
-Chart Background	White	#FFFFFF
-Accent Colors	Blue #0078D4, Orange #FF8C00, Green #22A55B	
+| Element | Style | Color |
+|----------|--------|--------|
+| **Background** | Light Gray | `#F5F5F5` |
+| **Header Gradient** | Electric Green → Lime | `#00C853 → #64DD17` |
+| **KPI Box Background** | Subtle Light Green | `#E8F5E9` |
+| **Text** | Dark Charcoal | `#212121` |
+| **Chart Background** | White | `#FFFFFF` |
+| **Accent Colors** | Blue `#0078D4`, Orange `#FF8C00`, Green `#22A55B` |
 
-Font: Segoe UI / Montserrat
-Theme: Clean, Modern, Executive
+**Font:** Segoe UI / Montserrat  
+**Theme:** Clean, Modern, Executive
 
-⚙️ Tools Used
+<img width="290" height="312" alt="image" src="https://github.com/user-attachments/assets/07a80e6e-d27c-4e3a-81cb-58c54b399ae1" />
 
-Microsoft Excel – Data cleaning, analysis, and dashboard creation
+---
 
-Pivot Tables & Slicers – Interactive filtering and KPI generation
+## ⚙️ Tools Used
 
-Conditional Formatting – Highlighting high-potential leads
+- **Microsoft Excel** – Data cleaning, analysis, and dashboard creation  
+- **Pivot Tables & Slicers** – Interactive filtering and KPI generation  
+- **Conditional Formatting** – Highlighting high-potential leads  
+- **Power Query** – Data transformation and cleaning  
 
-Power Query – Data transformation and cleaning
+---
 
-📁 Repository Structure
+## 📁 Repository Structure
 📂 ElectricPe-Dashboard
 │
 ├── 📊 Nikhil_Kumar_BTECH1088322.xlsx       # Main project Excel file
@@ -100,27 +107,35 @@ Power Query – Data transformation and cleaning
 │   └── cancellation_trends.png
 └── 📄 License (optional)
 
-🧠 Insights & Learnings
 
-Faster TAT correlates directly with higher lead conversion rates
 
-Most cancellations are due to price sensitivity or model unavailability
+---
 
-Stores with higher NPS also have better booking-to-delivery ratios
+## 🧠 Insights & Learnings
 
-🚀 How to Use
+- Faster **TAT** correlates directly with higher lead conversion rates  
+- Most cancellations occur due to **price sensitivity** or **model unavailability**  
+- Stores with higher **NPS** also have better booking-to-delivery ratios  
 
-Open the Excel file Nikhil_Kumar_BTECH1088322.xlsx
+---
 
-Navigate to the Dashboard sheet
+## 🚀 How to Use
 
-Use the Store Name slicer to filter results by location
+1. Open the Excel file **`Nikhil_Kumar_BTECH1088322.xlsx`**  
+2. Navigate to the **Dashboard** sheet  
+3. Use the **Store Name** slicer to filter results by location  
+4. Explore KPIs, charts, and insights interactively  
 
-Explore KPIs, charts, and insights interactively
+---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Nikhil Kumar
-🎓 B.Tech (10883/22)
-💼 Data Analytics | Business Intelligence | Dashboard Design
-📧 [Add your email or LinkedIn URL here]
+**Nikhil Kumar**  
+🎓 B.Tech/10883/22  
+💼 Data Analytics | Business Intelligence | Dashboard Design  
+📧 nikhilkr3000@gmail.com
+
+
+
+
+
